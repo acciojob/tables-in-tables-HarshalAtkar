@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
     <link rel="stylesheet" href="style.css" />
+	  
   </head>
   <body>
-    <table style="width: 100%; height: 100%" BORDER=1>
+	  <style>
+        table,
+        td,
+        th {
+            border: 1px solid;
+            text-align: center;
+			BORDER=1;
+        }
+    </style>
+	  
+    <table style="width: 100%; height: 100%" >
       <!-- Your code here -->
 		
 		<TR>
 <!-- 1 1 -->
 			<TD>
-				<table style="width: 100%" BORDER=1>
+				<table style="width: 100%" >
 				<TR>
 					<TD colspan="2"><b>Nested Table 2 </TD> 
 				</TR>
@@ -59,7 +70,7 @@
 			<TD>
 				<table style="width: 100%"BORDER=1>
 				<TR>
-					<td colspan="2"><b> Nested Table 3 </td> 
+					<td text-align: center colspan="2"><b> Nested Table 3 </td> 
 				</TR>
 				
 					<TR>
